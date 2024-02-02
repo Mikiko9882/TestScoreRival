@@ -3,7 +3,7 @@
   <div class="w-100 align-self-end pt-1 pt-md-4 pb-4" style="max-width: 526px;">
     <h1 class="text-center text-xl-start"><%= t '.title' %></h1>
     <p class="text-center text-xl-start pb-3 mb-3">新規登録はお済みですか? <%= link_to "新規登録画面へ", new_user_path %></p>
-    <%= form_with url: user_sessions_path, local: true do |f| %>
+    <%= form_with url: user_session_path, local: true do |f| %>
       <div class="position-relative mb-4">
         <div class="form-group">
           <%= f.label :email, User.human_attribute_name(:email) %>
