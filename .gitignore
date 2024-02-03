@@ -41,3 +41,10 @@
 
 # Ignore vendor/bundle
 /vendor/bundle/
+
+# Ignore vendor
+/vendor
+/config/database.yml
+/public/uploads
+
+.DS_Store
